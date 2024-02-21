@@ -1,5 +1,5 @@
 
-# Try Speech Studio 🚀
+# Try Speech Studio & Azure Language Studio🚀
 
 This repository is to store the data and the result from the use of some of the tools that are available in the Speech Studio.
 
@@ -636,11 +636,120 @@ https://github.com/amandagrams/speech.microsoft/assets/4412478/38a777f7-931d-44e
 ]
 ```
 
+### Analyze sentiment and opinions
+
+![](output/Analyzed-Sentiment01.png?raw=true)
+![](output/Analyzed-Sentiment02.png?raw=true)
+![](output/Analyzed-Sentiment03.png?raw=true)
+![](output/Analyzed-Sentiment04.png?raw=true)
+![](output/Analyzed-Sentiment05.png?raw=true)
+![](output/Analyzed-Sentiment06.png?raw=true)
+![](output/Analyzed-Sentiment07.png?raw=true)
+
+```Json
+{
+    "documents": [
+        {
+            "id": "id__591",
+            "sentiment": "neutral",
+            "confidenceScores": {
+                "positive": 0.09,
+                "neutral": 0.78,
+                "negative": 0.13
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.14,
+                        "neutral": 0.83,
+                        "negative": 0.03
+                    },
+                    "offset": 0,
+                    "length": 40,
+                    "text": "You must unlearn what you have learned. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.26,
+                        "neutral": 0.7,
+                        "negative": 0.04
+                    },
+                    "offset": 40,
+                    "length": 31,
+                    "text": "All right, I'll give it a try. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.04,
+                        "neutral": 0.76,
+                        "negative": 0.19
+                    },
+                    "offset": 71,
+                    "length": 4,
+                    "text": "No. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.07,
+                        "neutral": 0.63,
+                        "negative": 0.3
+                    },
+                    "offset": 75,
+                    "length": 9,
+                    "text": "Why not? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.97,
+                        "negative": 0.02
+                    },
+                    "offset": 84,
+                    "length": 14,
+                    "text": "Do or do not. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.04,
+                        "neutral": 0.78,
+                        "negative": 0.18
+                    },
+                    "offset": 98,
+                    "length": 17,
+                    "text": "There is no try. ",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
+```
+
+
 ## Reference 📖
 
- - [Analyze images in Vision Studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html)
- - [Detect faces in Vision Studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/04-face.html)
- - [Read text in Vision Studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html)
+ - [Explore Speech Studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/09-speech.html)
+ - [Analyze text with Language Studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html)
 
 
 ## Authors 👽
